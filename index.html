@@ -1,14 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final</title>
     <script src="//d3js.org/d3.v3.min.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
     <script src="index.js" defer></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div id="chart_main"></div>
+    <form id="radio_buttons">
+      <div>
+        <span>Start from here ----> </span>
+        <label for="radio_1" class="input_label">Lines</label>
+        <input
+          type="radio"
+          id="radio_1"
+          name="type"
+          value="1"
+          class="input_circle"
+        />
+        <label for="radio_2" class="input_label">Horizons</label
+        ><input
+          type="radio"
+          id="radio_2"
+          name="type"
+          value="2"
+          class="input_circle"
+        />
+        <label for="radio_3" class="input_label">Areas</label
+        ><input
+          type="radio"
+          id="radio_3"
+          name="type"
+          value="3"
+          class="input_circle"
+        />
+        <label for="radio_4" class="input_label">Stacked Area</label
+        ><input
+          type="radio"
+          id="radio_4"
+          name="type"
+          value="4"
+          class="input_circle"
+        />
+        <label for="radio_5" class="input_label">Streamgraph</label
+        ><input
+          type="radio"
+          id="radio_5"
+          name="type"
+          value="5"
+          class="input_circle"
+        />
+        <label for="radio_6" class="input_label">Overlapping Area</label
+        ><input
+          type="radio"
+          id="radio_6"
+          name="type"
+          value="6"
+          class="input_circle"
+        />
+        <label for="radio_7" class="input_label">Grouped Bar</label
+        ><input
+          type="radio"
+          id="radio_7"
+          name="type"
+          value="7"
+          class="input_circle"
+        />
+      </div>
+    </form>
+  </body>
 </html>
